@@ -1,11 +1,12 @@
 #include <ThingerESP8266.h>
 #include <ESP8266WiFi.h>
-#define USERNAME "vamshi190501"
+#define USERNAME "Thinger.IO username"
 #define DEVICE_ID "NodeMCU"
-#define DEVICE_CREDENTIAL "QKAZTR63eq%O!6$G"
-#define SSID "vamshi_190501"
-#define SSID_PASSWORD "krishna@2001"
-#define SENSOR 2
+#define DEVICE_CREDENTIAL "QKAZTR63eq%O!6$G(From Thinger.Io)"
+#define SSID "Your Wifi Name"
+#define SSID_PASSWORD "Your Wifi Password"
+//D4 I/O pin of ESP8266MOD
+#define SENSOR 2 
 ThingerESP8266 thing(USERNAME, DEVICE_ID, DEVICE_CREDENTIAL);
 long currentMillis = 0;
 long previousMillis = 0;
